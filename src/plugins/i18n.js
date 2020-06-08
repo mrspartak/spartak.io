@@ -6,7 +6,7 @@ import ru from '@/messages/ru.json';
 import en from '@/messages/en.json';
 import de from '@/messages/de.json';
 
-let browserLocale = navigator.language || navigator.userLanguage
+let browserLocale = navigator.language || navigator.userLanguage;
 
 const i18n = new VueI18n({
 	locale: browserLocale || 'ru',
@@ -14,7 +14,7 @@ const i18n = new VueI18n({
 	messages: {
 		ru,
 		en,
-		de
+		de,
 	},
 });
 

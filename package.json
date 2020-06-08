@@ -11,7 +11,7 @@
 	"license": "MIT",
 	"husky": {
 		"hooks": {
-			"pre-commit": "prettier --write ./src"
+			"pre-commit": "prettier --write ./src && git add ."
 		}
 	},
 	"dependencies": {
