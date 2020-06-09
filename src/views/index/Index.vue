@@ -42,9 +42,9 @@ export default {
 	transition: all 0.25s ease;
 }
 .social {
-	@apply flex-initial text-center mr-3 text-white text-opacity-75 transition-all duration-500 ease-out;
+	@apply flex-initial text-center mr-3 opacity-75 transition-all duration-500 ease-out;
 }
 .social:hover {
-	@apply text-opacity-100;
+	@apply opacity-100;
 }
 </style>
