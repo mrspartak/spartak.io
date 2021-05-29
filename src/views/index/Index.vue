@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<div class="sidebar">
+		<!-- <div class="sidebar">
 			<ul class="pt-2">
 				<li class="pb-2">Обо мне</li>
 				<li class="pb-2">Проекты</li>
@@ -9,7 +9,7 @@
 				<li class="pb-2">Образование</li>
 				<li class="pb-2">Опыт работы</li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="content">
 			<about class="mb-3 card" />
 		</div>
